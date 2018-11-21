@@ -63,7 +63,7 @@
 #yum -y install expat-devel
 ```
 
-* Utility program download and installation by wget
+* Utility program download and installation by wget (apache-install.sh)
 ``` bash
 # cd /usr/local/SWV/server
 # wget http://archive.apache.org/dist/httpd/httpd-2.4.29.tar.gz
@@ -83,7 +83,7 @@
 
 ```
 
-* httpd 설치
+* httpd 설치 (httpd-install.sh)
 ```bash
 # cd /usr/local/SWV/server/httpd-2.4.29
 # ./configure --prefix=/usr/local/SWV/server/httpd
