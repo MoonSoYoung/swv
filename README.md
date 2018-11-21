@@ -58,5 +58,7 @@ mkdir /usr/local/SWV/toolchain
 
 ## 2. Apache HTTP Server installation
 Utility program installation by using yum
+``` bash
 yum -y install gcc make gcc-c++ pcre-devel httpd-devel apr-devel apr-util-devel
 yum -y install expat-devel
+```
