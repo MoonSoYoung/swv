@@ -48,11 +48,7 @@
 * OS: CentOS v7
 ## 1. SWV 환경 구축을 위한 기본 디렉토리 생성
 총 6개의 디렉토리를 생성한다 :
-```
-git clone https://github.com/IBM/BlockchainEvents-CompositeJourney.git
-```
-
-```
+```bash
 mkdir /usr/local/SWV
 mkdir /usr/local/SWV/dev
 mkdir /usr/local/SWV/tools
