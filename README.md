@@ -62,3 +62,23 @@ Utility program installation by using yum
 yum -y install gcc make gcc-c++ pcre-devel httpd-devel apr-devel apr-util-devel
 yum -y install expat-devel
 ```
+
+Utility program download and installation by wget
+``` bash
+# cd /usr/local/SWV/server
+# wget http://archive.apache.org/dist/httpd/httpd-2.4.29.tar.gz
+# wget http://mirror.apache-kr.org/apr/apr-1.6.5.tar.gz
+# wget http://mirror.apache-kr.org/apr/apr-util-1.6.1.tar.gz
+# wget http://downloads.sourceforge.net/project/pcre/pcre/8.41/pcre-8.41.tar.gz
+# tar -xvzf httpd-2.4.29.tar.gz
+# tar -xzvf apr-1.6.5.tar.gz
+# tar -xzvf apr-util-1.6.1.tar.gz
+# tar -xzvf pcre-8.41.tar.gz
+# mv apr-1.6.5 ./httpd-2.4.29/srclib/apr
+# mv apr-util-1.6.1 ./httpd-2.4.29/srclib/apr-util
+# cd pcre-8.41
+# ./configure
+# make
+# make install
+
+```
