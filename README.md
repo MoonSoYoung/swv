@@ -57,13 +57,13 @@
 ```
 
 ## 2. Apache HTTP Server installation
-Utility program installation by using yum
+*Utility program installation by using yum
 ``` bash
 #yum -y install gcc make gcc-c++ pcre-devel httpd-devel apr-devel apr-util-devel
 #yum -y install expat-devel
 ```
 
-Utility program download and installation by wget
+*Utility program download and installation by wget
 ``` bash
 # cd /usr/local/SWV/server
 # wget http://archive.apache.org/dist/httpd/httpd-2.4.29.tar.gz
@@ -82,3 +82,19 @@ Utility program download and installation by wget
 # make install
 
 ```
+
+*httpd 설치
+```bash
+# cd /usr/local/SWV/server/httpd-2.4.29
+# ./configure --prefix=/usr/local/SWV/server/httpd
+# make
+# make install
+# mv /usr/local/SWV/server/httpd/htdocs /usr/local/SWV/
+```
+
+*웹서버 환경설정 파일 열기
+```'bash
+# ln /usr/local/SWV/server/httpd/bin/httpd /bin/httpd
+# vim /usr/local/SWV/server/httpd/conf/httpd.conf
+```
+
