@@ -98,3 +98,11 @@
 # vim /usr/local/SWV/server/httpd/conf/httpd.conf
 ```
 
+* httpd.conf의 내용을 다음과 같이 수정
+위에서 vim으로 오픈한 httpd.conf의 내용을 아래와 같이 수정이 필요하다.
+변경 전	  | 변경 후 
+--------- | ----------
+#ServerName www.example.com:80 | ServerName localhost:80
+DocumentRoot “/usr/local/SWV/server/httpd/htdocs” | DocumentRoot “/usr/local/SWV/htdocs” 
+<Directory “/usr/local/SWV/server/httpd/htdocs”> | <Directory “/usr/local/SWV/htdocs”>
+
