@@ -48,14 +48,14 @@
 * OS: CentOS v7
 ## 1. SWV 환경 구축을 위한 기본 디렉토리 생성
 총 6개의 디렉토리를 생성한다 :
-'''
+```
 mkdir /usr/local/SWV
 mkdir /usr/local/SWV/dev
 mkdir /usr/local/SWV/tools
 mkdir /usr/local/SWV/server
 mkdir /usr/local/SWV/src
 mkdir /usr/local/SWV/toolchain
-'''
+```
 
 ## 2. Apache HTTP Server installation
 Utility program installation by using yum
