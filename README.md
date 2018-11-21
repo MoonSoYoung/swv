@@ -48,10 +48,6 @@
 * OS: CentOS v7
 ## 1. SWV 환경 구축을 위한 기본 디렉토리 생성
 총 6개의 디렉토리를 생성한다 :
-“`
-var i = 0
-“`
-
 ```bash
 mkdir /usr/local/SWV
 mkdir /usr/local/SWV/dev
