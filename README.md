@@ -107,3 +107,11 @@
 DocumentRoot “/usr/local/SWV/server/httpd/htdocs” | DocumentRoot “/usr/local/SWV/htdocs” 
 <Directory “/usr/local/SWV/server/httpd/htdocs”> | <Directory “/usr/local/SWV/htdocs”>
 
+* 웹서버 실행
+```bash
+/usr/local/SWV/server/httpd/bin/httpd -k start
+```
+실행 후, 웹브라우저를 이용하여 웹서버 실행을 확인한다. (경로는 http://localhost)
+아래와 같은 화면이 보인다면 웹서버가 정상적으로 작동하고 있음을 뜻한다.
+
+
